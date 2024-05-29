@@ -10,6 +10,7 @@ function hashValue(value) {
     return hash.digest('hex')
 }
 
+
 function comparePassword(inputPassword, hashedPassword) {
     return hashValue(inputPassword)===hashedPassword
 };
